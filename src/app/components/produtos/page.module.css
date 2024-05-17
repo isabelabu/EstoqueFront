@@ -1,17 +1,27 @@
 .main{
     margin: 50px 0px;
-    border: 2px solid rgba(88, 75, 88, 0.26);
     border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.308);
+    box-shadow: rgba(17, 12, 46, 0.075) 0px 48px 100px 0px;
 }
 
 .main div{
     display: inline-block;
     vertical-align: middle;
-    padding: 50px 100px;
+    padding: 50px 20px;
+}
+
+.info{
+    padding: 1rem;
+}
+
+.info td{
+    padding: 10px 30px;
+    text-align: center;
 }
 
 .main button{
-    width: 200px;
+    width: 150px;
     height: 50px;
     border: none;
     font-size: large;
@@ -20,14 +30,17 @@
     margin: 15px;
 }
 
+.info{
+    color: #554651;
+}
+
 .acoes{
     width: 18%;
     vertical-align: middle;
 }
 
 .excluir{
-    background-color: #b82e2e;
-    
+    background-color: #b82e2e;   
 }
 
 .editar{
